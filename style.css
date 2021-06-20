@@ -43,10 +43,11 @@
     font-size: 14px;
 }
 
-.error-show {
+
+/* .error-show {
     display: block;
     animation: price-show 300ms alternate ease-in;
-}
+} */
 
 .result-text {
     font-size: 20px;
