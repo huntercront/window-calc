@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="container" style="max-width: 700px;margin: 0 auto;">
+        <div class="window-calc">
+            <div class="input-wraper nubers-input">
+                <label for="width">Ширина</label>
+                <input id="width" type="number" autocomplete="off"></input>
+            </div>
+            <div class="input-wraper nubers-input">
+                <label for="height">Высота</label>
+                <input id="height" type="number" autocomplete="off"></input>
+            </div>
+            <div class="input-wraper">
+                <legend class="radio-legend">Количество секций</legend>
+                <div class="radio-buttons">
+                    <div class="radio-wrapper">
+                        <label for="sec-1">1</label>
+                        <input type="radio" name="sections" id="sec-1" checked class="radio-value" value="1">
+                    </div>
+                    <div class="radio-wrapper">
+                        <label for="sec-2">2</label>
+                        <input type="radio" name="sections" id="sec-2" class="radio-value" value="2">
+                    </div>
+                    <div class="radio-wrapper">
+                        <label for="sec-3">3</label>
+                        <input type="radio" name="sections" id="sec-3" class="radio-value" value="3">
+                    </div>
+                </div>
+            </div>
+            <div class="input-wraper">
+                <button class="calc">Расчитать</button>
+            </div>
+            <div class="result">
+                <div class="result-inner">
+                    <p>Стоимость заказа составляет:</p>
+                    <div class="result-text"> 50</div>
+                </div>
+            </div>
+            <div class="error">
+                <div class="error-inner">
+                    <div class="error-text">Заполните обязательные поля</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
